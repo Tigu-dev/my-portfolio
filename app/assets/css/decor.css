@@ -1,0 +1,30 @@
+/* Put inside a position:relative card. Always add aria-hidden="true". */
+.decor-dots,
+.decor-plus {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  color: var(--text);
+  opacity: .12;
+  background-color: currentColor;
+  -webkit-mask-repeat: repeat;
+  mask-repeat: repeat;
+}
+.decor-dots {
+  -webkit-mask-image: url('/assets/dot-grid.svg');
+  mask-image: url('/assets/dot-grid.svg');
+}
+.decor-plus {
+  -webkit-mask-image: url('/assets/plus-grid.svg');
+  mask-image: url('/assets/plus-grid.svg');
+}
+
+/* Add class="grain" to <body> or app root */
+.grain::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: url('/assets/noise.svg');
+  z-index: 50;
+}
