@@ -1,3 +1,44 @@
+Bentos-inspired portfolio
+
+A dark, minimal, bento-style personal portfolio built with Nuxt 4 and plain CSS. No UI framework, no Tailwind: just a small set of design tokens and reusable Vue components.
+
+Sections: sticky nav, hero (intro, availability, focus, socials), projects grid, closing CTA, footer. Cards fade and rise as you scroll.
+
+Tech
+Nuxt 4 (Vue 3, TypeScript)
+Plain CSS with variables (design tokens)
+Kanit via Google Fonts
+Original monochrome SVG decorations (they use currentColor)
+Prerequisites
+Node.js 20 or newer (latest LTS recommended). Check with node -v.
+npm (bundled with Node), or pnpm / yarn if you prefer.
+
+
+Quick start
+bash
+# 1. Clone
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the dev server
+npm run dev
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
